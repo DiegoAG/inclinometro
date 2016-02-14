@@ -70,7 +70,7 @@ angle_xy = 0.0
 last_received = ''
 
 def store_angle(string):
-  global angle_yz, angle_xz
+  global angle_yz, angle_xz, angle_xy
   line = string.split(':')
   if len(line) > 1 :
     if line[0] == "yz":
